@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::GameArtSpecification>
+	<id>
+		<name text="MoarMacedonAndPersia"/>
+		<id text="18f25f31-44e8-4345-ba76-4c2ca6ba032a"/>
+	</id>
+	<artConsumers>
+		<Element>
+			<consumerName text="Units"/>
+			<relativeArtDefPaths>
+				<Element text="Units.artdef" />
+				<Element text="Unit_Bins.artdef" />
+				<Element text="VFX.artdef" />
+			</relativeArtDefPaths>
+			<libraryDependencies>
+				<Element text="Unit"/>
+				<Element text="VFX"/>
+				<Element text="Light"/>
+			</libraryDependencies>
+			<loadsLibraries>true</loadsLibraries>
+		</Element>
+		<Element>
+			<ConsumerName text="VFX"/>
+			<ArtDefDependencyPaths>
+				<Element text="VFX.artdef"/>
+			</ArtDefDependencyPaths>
+			<LibraryDependencies>
+				<Element text="VFX"/>
+				<Element text="Light"/>
+			</LibraryDependencies>
+			<LoadsLibraries>true</LoadsLibraries>
+		</Element>
+		<Element>
+			<ConsumerName text="UI"/>
+			<ArtDefDependencyPaths/>
+			<LibraryDependencies>
+				<Element text="UITexture"/>
+			</LibraryDependencies>
+			<LoadsLibraries>true</LoadsLibraries>
+		</Element>
+	</artConsumers>
+	<gameLibraries>
+		<Element>
+			<libraryName text="Unit"/>
+			<relativePackagePaths>
+				<Element text="units/ballista.blp"/>
+				<Element text="units/persianWarship.blp"/>
+				<Element text="units/pezhetairos.blp"/>
+				<Element text="units/cataphract.blp"/>
+			</relativePackagePaths>
+		</Element>
+		<Element>
+			<LibraryName text="VFX"/>
+			<PackageDependencies>
+				<Element text="VFX.blp"/>
+			</PackageDependencies>
+		</Element>
+		<Element>
+			<LibraryName text="UITexture"/>
+			<PackageDependencies>
+				<Element text="UI/Icons.blp"/>
+			</PackageDependencies>
+		</Element>
+	</gameLibraries>
+	<requiredGameArtIDs>
+		<Element>
+			<name text="Civ6"/>
+			<id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
+		</Element>
+		<Element>
+			<name text="MoarUnits"/>
+			<id text="8342b98d-80c7-4002-87bb-419646bd9b54"/>
+		</Element>
+	</requiredGameArtIDs>
+</AssetObjects::GameArtSpecification>
+
