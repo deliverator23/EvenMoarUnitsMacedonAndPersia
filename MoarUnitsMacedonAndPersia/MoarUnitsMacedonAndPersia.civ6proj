@@ -12,10 +12,10 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="MOARMacPerArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="MOARMacPerData"><File>Data/Even_MOAR_Units_MacedonPersia_Data.xml</File></UpdateDatabase><UpdateIcons id="MOARMacPerIcons"><File>Data/Even_MOAR_Units_MacedonPersia_Icons.xml</File></UpdateIcons><UpdateText id="MOARMacPerText"><File>Text/en_US/Even_MOAR_Units_MacedonPersia_Text.xml</File><File>Text/en_US/Even_MOAR_Units_MacedonPersia_PediaText.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="MOARMacPerArt"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="MOARMacPerData"><File>Data/Even_MOAR_Units_MacedonPersia_Data.xml</File></UpdateDatabase><UpdateIcons id="MOARMacPerIcons"><File>Data/Even_MOAR_Units_MacedonPersia_Icons.xml</File></UpdateIcons><UpdateText id="MOARMacPerText"><File>Text/en_US/Even_MOAR_Units_MacedonPersia_Text.xml</File><File>Text/en_US/Even_MOAR_Units_MacedonPersia_PediaText.xml</File><File>Text/ru_RU/Even_MOAR_Units_MacedonPersia_PediaText.xml</File><File>Text/ru_RU/Even_MOAR_Units_MacedonPersia_Text.xml</File><File>Text/zh_Hans_CN/Even_MOAR_Units_MacedonPersia_PediaText.xml</File><File>Text/zh_Hans_CN/Even_MOAR_Units_MacedonPersia_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
     <AssemblyName>MoarUnitsMacedonAndPersia</AssemblyName>
     <RootNamespace>MoarUnitsMacedonAndPersia</RootNamespace>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="MOARMacPerConfig"><File>Data/Even_MOAR_Units_MacedonPersia_Config.xml</File></UpdateDatabase><UpdateIcons id="MOARMacPerConfigIcons"><File>Data/Even_MOAR_Units_MacedonPersia_Icons.xml</File></UpdateIcons><UpdateText id="MOARMacPerConfigText"><File>Text/en_US/Even_MOAR_Units_MacedonPersia_Text.xml</File></UpdateText><UpdateArt id="MOARMacPerConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="MOARMacPerConfig"><File>Data/Even_MOAR_Units_MacedonPersia_Config.xml</File></UpdateDatabase><UpdateIcons id="MOARMacPerConfigIcons"><File>Data/Even_MOAR_Units_MacedonPersia_Icons.xml</File></UpdateIcons><UpdateText id="MOARMacPerConfigText"><File>Text/en_US/Even_MOAR_Units_MacedonPersia_Text.xml</File><File>Text/ru_RU/Even_MOAR_Units_MacedonPersia_Text.xml</File><File>Text/zh_Hans_CN/Even_MOAR_Units_MacedonPersia_Text.xml</File></UpdateText><UpdateArt id="MOARMacPerConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="DLC: Persia and Macedon Civilization Pack" id="E2749E9A-8056-45CD-901B-C368C8E83DEB" />
   <Dependency type="Mod" title="MOARUnits" id="8342b98d-80c7-4002-87bb-419646bd9b54" />
@@ -640,6 +640,18 @@
     <Content Include="Text\en_US\Even_MOAR_Units_MacedonPersia_Text.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Text\ru_RU\Even_MOAR_Units_MacedonPersia_PediaText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\ru_RU\Even_MOAR_Units_MacedonPersia_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\zh_Hans_CN\Even_MOAR_Units_MacedonPersia_PediaText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\zh_Hans_CN\Even_MOAR_Units_MacedonPersia_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="XLPs\ballista.xlp">
       <SubType>Content</SubType>
     </Content>
@@ -668,6 +680,8 @@
     <Folder Include="Text" />
     <Folder Include="Textures\" />
     <Folder Include="Text\en_US" />
+    <Folder Include="Text\ru_RU\" />
+    <Folder Include="Text\zh_Hans_CN\" />
     <Folder Include="XLPs\" />
     <None Include="Mod.Art.xml" />
   </ItemGroup>
