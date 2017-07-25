@@ -2,10 +2,10 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
-    <Name>Moar Macedon and Persia</Name>
+    <Name>Even Moar Units: Macedon and Persia</Name>
     <Guid>55d2bf80-14a1-4184-ba31-d43428017207</Guid>
     <ProjectGuid>db1c5d52-e61f-4c6c-9e55-d5a452509a4e</ProjectGuid>
-    <ModVersion>1.1</ModVersion>
+    <ModVersion>1</ModVersion>
     <Teaser>Adds Ballistra and Pezhetairos to Macedon and Cataphract and Royal Warship to Persia.</Teaser>
     <Description>Adds Ballistra and Pezhetairos to Macedon and Cataphract and Royal Warship to Persia.</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
