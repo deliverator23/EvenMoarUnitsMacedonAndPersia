@@ -3,11 +3,27 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
     <Name>Even Moar Units: Macedon and Persia</Name>
-    <Guid>55d2bf80-14a1-4184-ba31-d43428017207</Guid>
+    <Guid>53ffce0d-7cc1-47c8-9f2b-c5c593e81411</Guid>
     <ProjectGuid>db1c5d52-e61f-4c6c-9e55-d5a452509a4e</ProjectGuid>
     <ModVersion>1</ModVersion>
     <Teaser>Adds Ballistra and Pezhetairos to Macedon and Cataphract and Royal Warship to Persia.</Teaser>
-    <Description>Adds Ballistra and Pezhetairos to Macedon and Cataphract and Royal Warship to Persia.</Description>
+    <Description>Four new unique units, two for Macedon and two for Persia.
+
+Ballistra
+Macedonian unique Catapult replacement. +17 versus non-District tiles (negating the normal Siege penalty) and -10 versus District tiles.
+
+Pezhetairos
+Macedonian unique Spearman replacement. Stronger than Spearman and receives +10 Combat Strength versus Melee units (negating the usual penalty).
+
+Cataphract
+Persian unique Classical era heavy cavalry unit. Strength 39, upgrades to Knight.
+
+Royal Warship
+Persian unique Naval unit. Replaces Galley. +5 [ICON_Strength] Combat Strength when attacking. Also gives +5 Combat Strength to adjacent land units and +2 movement if they start their turn in an adjacent tile.
+
+Credits:
+Uses Ballista model from Civilization 5.
+Uses elements from the Medieval 2: Total War mod Europa Barbarorum II.</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
