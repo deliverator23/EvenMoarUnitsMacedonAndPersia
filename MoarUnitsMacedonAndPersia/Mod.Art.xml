@@ -20,23 +20,23 @@
 			<loadsLibraries>true</loadsLibraries>
 		</Element>
 		<Element>
-			<ConsumerName text="VFX"/>
-			<ArtDefDependencyPaths>
+			<consumerName text="VFX"/>
+			<relativeArtDefPaths>
 				<Element text="VFX.artdef"/>
-			</ArtDefDependencyPaths>
-			<LibraryDependencies>
+			</relativeArtDefPaths>
+			<libraryDependencies>
 				<Element text="VFX"/>
 				<Element text="Light"/>
-			</LibraryDependencies>
-			<LoadsLibraries>true</LoadsLibraries>
+			</libraryDependencies>
+			<loadsLibraries>true</loadsLibraries>
 		</Element>
 		<Element>
-			<ConsumerName text="UI"/>
-			<ArtDefDependencyPaths/>
-			<LibraryDependencies>
+			<consumerName text="UI"/>
+			<relativeArtDefPaths/>
+			<libraryDependencies>
 				<Element text="UITexture"/>
-			</LibraryDependencies>
-			<LoadsLibraries>true</LoadsLibraries>
+			</libraryDependencies>
+			<loadsLibraries>true</loadsLibraries>
 		</Element>
 	</artConsumers>
 	<gameLibraries>
@@ -50,16 +50,16 @@
 			</relativePackagePaths>
 		</Element>
 		<Element>
-			<LibraryName text="VFX"/>
-			<PackageDependencies>
+			<libraryName text="VFX"/>
+			<relativePackagePaths>
 				<Element text="VFX.blp"/>
-			</PackageDependencies>
+			</relativePackagePaths>
 		</Element>
 		<Element>
-			<LibraryName text="UITexture"/>
-			<PackageDependencies>
+			<libraryName text="UITexture"/>
+			<relativePackagePaths>
 				<Element text="UI/Icons.blp"/>
-			</PackageDependencies>
+			</relativePackagePaths>
 		</Element>
 	</gameLibraries>
 	<requiredGameArtIDs>
